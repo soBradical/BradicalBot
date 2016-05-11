@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Brad? Just say HELLO to get started.')
+            return bot.say('So you want to learn about Brad? Just say BOT to get started.')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`So, I'm good at structured conversations but stickers, emoji and sentences still confuse me. %[Chat about something else](postback:chat_about_something_else)`).then(() => 'speak');
+                    return bot.say(`So, I'm good at structured conversations but stickers, emoji and sentences still confuse me. Let's chat about something else. %[Sounds good](postback:sounds_good)`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
