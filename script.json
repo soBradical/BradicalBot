@@ -4,14 +4,12 @@
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "Signing off.",
-    "DISCONNECT": "Roger that, EstherBot is back.",
-    
+    "DISCONNECT": "Roger that, BradicalBot is back.",
+    "RANDOM": label.addClass("valid").text(getMessage());
 }
-jokes = {
-         "stupid": ["""Yo' Mama is so stupid, she needs a recipe to make ice cubes.""",
-                    """Yo' Mama is so stupid, she thinks DNA is the National Dyslexics Association."""],
-         "fat":    ["""Yo' Mama is so fat, when she goes to a restaurant, instead of a menu, she gets an estimate.""",
-                    "Yo' Mama is so fat, when the cops see her on a street corner, they yell, 'Hey you guys, break it up!'"],
-         "dumb":   ["""Yo' Mama is so dumb, when God was giving out brains, she thought they were milkshakes and asked for extra thick.""",
-                    """Yo' Mama is so dumb, she locked her keys inside her motorcycle."""] 
-         }
+
+
+var messages = ["Good!", "Great!", "Awesome!", "Super!", "Nice!"];
+function getMessage() {
+   return messages[Math.floor(Math.random() * messages.length)];
+}
