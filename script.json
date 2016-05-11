@@ -5,11 +5,5 @@
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "Signing off.",
     "DISCONNECT": "Roger that, BradicalBot is back.",
-    "RANDOM": [label.addClass("valid").text(getMessage())]
-}
 
-
-var messages = ["Good!", "Great!", "Awesome!", "Super!", "Nice!"];
-function getMessage() {
-   return messages[Math.floor(Math.random() * messages.length)];
 }
