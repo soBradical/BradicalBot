@@ -5,10 +5,5 @@
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "Signing off.",
     "DISCONNECT": "Roger that, EstherBot is back.",
-    "I'M HERE FOR THE BOT": "Test Test Taco Truck",
-    "RANDOM": function processResult(obj) {               
-    var words = obj.words;
-    var random_word =  words[Math.floor(Math.random() * words.length)];
-    console.log("The word is: "+random_word);
-    }
+
 }
