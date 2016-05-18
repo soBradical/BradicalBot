@@ -11,7 +11,7 @@
                 "OF COURSE!": "Here is the largest diamond Brad has ever held. A 32 carat pear shaped diamond before the high heat high preasrue process\n![diamond](https://raw.githubusercontent.com/soBradical/BradicalBot/master/img/diamond.JPG)\nNow then? Where to next? Select another position or something else to move on. %[Staff Auditor](postback:staff_auditor) %[Dependent Eligibility Auditor](postback:dependent_eligibility_auditor) %[Something Else](postback:something_else)",
         "EDUCATION": "I went to school!",
         "PERSONAL": "He like stuff.",
-        "SOMETHING ELSE": "Ok, here's other stuff to check out. %[Career](postback:career) %[Education](postback:education) %[Personal](postback:personal) \nOr, maybe you want an interesting nugget or to talk directly with Brad? %[One random fact](postback:random_fact) $[Connect with brad](postback:connect)",
+        "SOMETHING ELSE": "Ok, here's other stuff to check out. %[Career](postback:career) %[Education](postback:education) %[Personal](postback:personal)\nOr, maybe you want an interesting nugget or to talk directly with Brad? %[One random fact](postback:random_fact) %[Connect with brad](postback:connect)",
     "CONNECT WITH BRAD": "Sweet! He loves getting intros from BradicalBot. You can either view his Linkedin, or connect directly to chat with him.\nIf you've got feedback or an opportunity, don't be shy! %[Linkedin](https://www.linkedin.com/in/bcsteph) %[Connect](https://www.facebook.com/messages/soBradical#)",
     "ONE RANDOM FACT": "What to put here?",
     "I LOVE YOU": "Awh, shucks! I love you too!",
