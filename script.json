@@ -1,10 +1,8 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Brad, a Accountant from Provo, Utah.\n![brad](https://raw.githubusercontent.com/soBradical/BradicalBot/master/img/Brad.jpg)\nWant learn about Brad? %[Learn about Brad](postback:learn_about_brad) %[One random fact!](postback:random_fact)",
-    
     "HELLO": "Well hello there! How are you? %[Great!](postback:great) %[Could be better](postback:could_be_better)",
         "GREAT!": "That's good to hear! I am also doing well.\nHere are some things to check out. %[Career](postback:career) %[Education](postback:education) %[Personal](postback:personal)",
         "COULD BE BETTER": "Oh, I'm sorry to hear that. I'm sure things will look up soon. 😊\nI'n the mean time, here are some things to check out. %[Career](postback:career) %[Education](postback:education) %[Personal](postback:personal)",
-    
     "LEARN ABOUT BRAD": "I can tell you a bunch of stuff about Brad. Let me know what’s interesting to you. %[Career](postback:career) %[Education](postback:education) %[Personal](postback:personal)",
         "CAREER": "Brad has 3 years of experience in providing accounting and assurance services.\nFrom this, he has developed a strong accounting background and thorough knowledge of general ledger analysis & reconciliation, audit procedures, and financial statements.\nWhich position would you like to learn about? %[Staff Auditor](postback:staff_auditor) %[Dependent Eligibility Auditor](postback:dependent_eligibility_auditor) %[Internal Auditor](postback:internal_auditor)",
             "STAFF AUDITOR": "What I did for GALLINA, LLP.\nSelect another position to learn more about Brad's career or something else to move on. %[Dependent Eligibility Auditor](postback:dependent_eligibility_auditor) %[Internal Auditor](postback:internal_auditor) %[Something Else](postback:something_else)",
@@ -13,10 +11,10 @@
                 "OF COURSE!": "Here is the largest diamond Brad has ever held. A 32 carat pear shaped diamond before the high heat high preasrue process\n![diamond](https://raw.githubusercontent.com/soBradical/BradicalBot/master/img/diamond.JPG)\nNow then? Where to next? Select another position or something else to move on. %[Staff Auditor](postback:staff_auditor) %[Dependent Eligibility Auditor](postback:dependent_eligibility_auditor) %[Something Else](postback:something_else)",
         "EDUCATION": "",
         "PERSONAL": "",
-    "RANDOM FACT": "",
+        "SOMETHING ELSE": "Ok, here's other stuff to check out. %[Career](career) %[Education](education) %[Personal](personal)",
+    "RANDOM FACT": "What to put here?",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "SOUNDS GOOD": "Ok, here's other stuff to check out. %[Career](career) %[Education](education) %[Personal](personal)",
-    "SOMETHING ELSE": "Ok, here's other stuff to check out. %[Career](career) %[Education](education) %[Personal](personal)",
     "CONNECT ME": "Signing off.",
     "DISCONNECT": "Roger that, BradicalBot is back."
 
