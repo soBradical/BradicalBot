@@ -12,10 +12,9 @@
         "EDUCATION": "",
         "PERSONAL": "",
         "SOMETHING ELSE": "Ok, here's other stuff to check out. %[Career](career) %[Education](education) %[Personal](personal)",
-    "RANDOM FACT": "What to put here?",
+    "ONE RANDOM FACT!": "What to put here?",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "SOUNDS GOOD": "Ok, here's other stuff to check out. %[Career](career) %[Education](education) %[Personal](personal)",
     "CONNECT ME": "Signing off.",
     "DISCONNECT": "Roger that, BradicalBot is back."
-
 }
